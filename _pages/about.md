@@ -33,7 +33,7 @@ Research Interests:
 
    Crafting strategies to differentiate genuine gravitational wave signals from noise, improving detection reliability.
 
-Recent Research Highlights::
+Recent Research Highlights:
 ======
 **Binary Black Hole Mergers in Active Galactic Nuclei:**
 
