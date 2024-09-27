@@ -16,11 +16,13 @@ My recent work investigates binary black hole mergers in active galactic nuclei 
 
 
 **Broad interests:**  Gravitational wave astronomy.
-
+< br / >
 **Specific Interests:**
 
-• Detection algorithms of gravitational wave transients with interferometric detectors.
+[1] Detection algorithms of Gravitational wave transients with interferometric detectors.
+
 • Search for intermediate-mass black hole binaries and eccentric binary black hole mergers from Advanced LIGO and Advanced Virgo observation data.
+
 • Enhancing gravitational waves science with machine learning.
 • Noise Veto Techniques
 
