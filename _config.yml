@@ -22,22 +22,22 @@ repository               : "gayathrigcc/gayathriv.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Gayathri V"
+  pronouns         :  "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Milwauke, USA"
+  employer         : "University of Wisconsin Milwaukee"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "gayathribuvana1991@gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Gayathri%2C+V"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=UWk0DOYAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-7167-9888"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : #"https://www.researchgate.net/profile/Gayathri-V-4"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
