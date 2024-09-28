@@ -9,7 +9,7 @@ main:
     url: /cv/
     
   - title: "Publications"
-    url: /cv2/
+    url: /markdown/
 
   - title: "Talks"
     url: /talks/    
