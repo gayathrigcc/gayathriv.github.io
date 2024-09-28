@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Dr. Gayathri V 
+Gayathri V, Ph.D. 
 ======
 
 Postdoctoral Associate, University of Wisconsin Milwaukee
