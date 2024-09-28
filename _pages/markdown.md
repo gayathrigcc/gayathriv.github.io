@@ -7,287 +7,40 @@ redirect_from:
   - /markdown.html
 ---
 
-## Locations of key files/directories
-
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
-
-## Tips and hints
-
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
-* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
-  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
-  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
-
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
- * [MathJax Documentation](https://docs.mathjax.org/en/latest/)
-
-## MathJax 
-
-Support for MathJax Version 3.0 is included in the template:
-
-$$
-\displaylines{
-\nabla \cdot E= \frac{\rho}{\epsilon_0} \\\
-\nabla \cdot B=0 \\\
-\nabla \times E= -\partial_tB \\\
-\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)
-}
-$$
-
-The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed mathematics, while `\\(...\\)` should be used for in-line mathematics (ex., \\(a^2 + b^2 = c^2\\))
-
-**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although [some workarounds exist](https://math.codidact.com/posts/278763/278772#answer-278772).
-
-## Markdown guide
-
-Academic Pages uses [kramdown](https://kramdown.gettalong.org/index.html) for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the [kramdown Syntax page](https://kramdown.gettalong.org/syntax.html) for full documentation.  
-
-### Header three
-
-#### Header four
-
-##### Header five
-
-###### Header six
-
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | ce
-ll5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
-
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
-
-Basic notices or call-outs are supported using the following syntax:
-
-```markdown
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-```
-
-which wil render as:
-
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-
-### Footnotes
-
-Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
-
-```markdown
-This is the regular text.[^1] This is more regular text.[^note]
-
-[^1]: This is the footnote itself.
-[^note]: This is another footnote.
-```
-
-[^1]: Such as this footnote.
-[^note]: When using text for footnotes markers, no spaces are permitted in the name.
-
-## HTML Tags
-
-### Address Tag
-
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
-
-### Anchor Tag (aka. Link)
-
-This is an example of a [link](http://github.com "Github").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
-
-*[CSS]: Cascading Style Sheets
-
-### Cite Tag
-
-"Code is poetry." ---<cite>Automattic</cite>
-
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
-You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:
-
-```python
-print('Hello World!')
-```
-
-or R:
-
-```R
-print("Hello World!", quote = FALSE)
-```
-
-### Details Tag (collapsible sections)
-
-The HTML `<details>` tag works well with Markdown and allows you to include collapsible sections, see [W3Schools](https://www.w3schools.com/tags/tag_details.asp) for more information on how to use the tag.
-
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-
-The source code:
-
-```HTML
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-```
-
-Or, you can leave a section open by default by including the `open` attribute in the tag:
-
-<details open>
-  <summary>Open by default</summary>
-  This section is open by default thanks to open in the &lt;details open&gt; tag!
-</details>
-
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
-
-***
-**Footnotes**
-
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
+## **Peer-Reviewed Publications**
+
+1. **V. Gayathri**, I. Bartos, S. Rosswog, M. C. Miller, D. Veske, W. Lu, S. Marka, ["Do gravitational wave observations in the lower mass gap favor a hierarchical triple origin?"](https://arxiv.org/abs/2307.09097), arXiv:2307.09097, 2023.
+2. Marek J. Szczepańczyk, Yanyan Zheng, ..., **V. Gayathri**, et al., ["An Optically Targeted Search for Gravitational Waves emitted by Core-Collapse Supernovae during the Third Observing Run of Advanced LIGO and Advanced Virgo"](https://arxiv.org/abs/2305.16146), arXiv:2305.16146, 2023.
+3. I. Bartos, S. Rosswog, **V. Gayathri**, M. C. Miller, D. Veske, S. Marka, ["Hierarchical Triples as Early Sources of r-process Elements"](https://arxiv.org/abs/2302.10350), arXiv:2302.10350, 2023.
+4. **V. Gayathri**, Daniel Wysocki, Y. Yang, I. Bartos, and R. O’Shaughnessy, ["Gravitational wave source populations: Disentangling an AGN component"](https://doi.org/10.3847/2041-8213/acc1e9), ApJL 945 L29, 2023.
+5. Marek J. Szczepańczyk, Francesco Salemi, Sophie Bini, Tanmaya Mishra, Gabriele Vedovato, **V. Gayathri**, Imre Bartos, Shubhagata Bhaumik, Marco Drago, et al., ["All-sky search for gravitational-wave bursts in the third Advanced LIGO-Virgo run with coherent WaveBurst enhanced by Machine Learning"](https://doi.org/10.1103/PhysRevD.107.062002), Phys. Rev. D 107, 062002, 2023.
+6. H. L. Iglesias, J. Lange, I. Bartos, S. Bhaumik, R. Gamba, **V. Gayathri**, et al., ["Reassessing candidate eccentric binary black holes: Results with a model including higher-order modes"](https://arxiv.org/abs/2208.01766), arXiv:2208.01766, 2022.
+7. Dixeena Lopez, **V. Gayathri**, Archana Pai, Ik Siong Heng, Chris Messenger, and Sagar Kumar Gupta, ["Application of Gaussian mixture modeling in all-sky short duration gravitational-wave burst search"](https://doi.org/10.1103/PhysRevD.105.063024), Phys. Rev. D 105, 063024, 2022.
+8. T. Mishra, B. O’Brien, M. Szczepańczyk, G. Vedovato, S. Bhaumik, **V. Gayathri**, et al., ["Search for binary black hole mergers in the third observing run of Advanced LIGO-Virgo using coherent WaveBurst enhanced with Machine Learning"](https://doi.org/10.1103/PhysRevD.105.083018), Phys. Rev. D 105, 083018, 2022.
+9. **V. Gayathri**, J. Healy, J. Lange, B. O’Brien, M. Szczepańczyk, I. Bartos, M. Campanelli, S. Klimenko, C. Lousto, R. O’Shaughnessy, ["GW190521 as a Highly Eccentric Black Hole Merger"](https://arxiv.org/abs/2009.05461), Nature Astronomy, arXiv:2009.05461, 2021.
+10. O’Brien, Brendan, Szczepańczyk, Marek, **V. Gayathri**, et al., ["Detection of LIGO-Virgo binary black holes in the pair-instability mass gap"](https://doi.org/10.1103/PhysRevD.104.082003), Phys. Rev. D 104, 082003, 2021.
+11. Tanmaya Mishra, Brendan O’Brien, **V. Gayathri**, et al., ["Optimization of model-independent gravitational wave search using machine learning"](https://doi.org/10.1103/PhysRevD.104.023014), Phys. Rev. D 104, 023014, 2021.
+12. M. Saleem, Javed Rana, **V. Gayathri**, et al., ["The Science Case for LIGO-India"](https://doi.org/10.1088/1361-6382/ab4ac6), Class. Quantum Grav. 39, 025004, 2022.
+13. **V. Gayathri**, Y. Yang, H. Tagawa, Z. Haiman, and I. Bartos, ["Black hole mergers of AGN origin in LIGO/Virgo’s O1-O3a observing periods"](https://doi.org/10.3847/2041-8213/abf058), The Astrophysical Journal Letters, 920 L42, 2021.
+14. Marek Szczepańczyk, Sergey Klimenko, Brendan O’Brien, Imre Bartos, **V. Gayathri**, et al., ["Observing an intermediate mass black hole GW190521 with minimal assumptions"](https://doi.org/10.1103/PhysRevD.103.082002), Phys. Rev. D 103, 082002, 2021.
+15. **V. Gayathri**, J. Healy, J. Lange, et al., ["Measuring the Hubble Constant with GW190521 as an Eccentric black hole Merger and Its Potential Electromagnetic Counterpart"](https://doi.org/10.3847/2041-8213/aba007), The Astrophysical Journal Letters, 908 L34, 2021.
+16. Y. Yang, **V. Gayathri**, S. Márka, Z. Márka, and I. Bartos, ["Determining the Hubble Constant with Black Hole Mergers in Active Galactic Nuclei"](https://arxiv.org/abs/2009.13739), arXiv:2009.13739, 2020.
+17. **V. Gayathri**, Dixeena Lopez, Pranjal R. S., et al., ["Enhancing the sensitivity of transient gravitational wave searches with Gaussian Mixture Models"](https://doi.org/10.1103/PhysRevD.102.104023), Phys. Rev. D 102, 104023, 2020.
+18. Y. Yang, **V. Gayathri**, et al., ["Black Hole Formation in the Lower Mass Gap through Mergers and Accretion in AGN Disks"](https://doi.org/10.3847/2041-8213/ab0a1c), The Astrophysical Journal Letters, 901 L34, 2020.
+19. Nirban Bose, Archana Pai, Koustav Chandra, **V. Gayathri**, et al., ["Chirp mass-based glitch identification in long-duration gravitational wave transients"](https://doi.org/10.1103/PhysRevD.102.084034), Phys. Rev. D 102, 084034, 2020.
+20. M. Drago, **V. Gayathri**, et al., ["Coherent WaveBurst, a pipeline for unmodeled gravitational-wave data analysis"](https://arxiv.org/abs/2006.12604), arXiv:2006.12604, 2020.
+21. Koustav Chandra, **V. Gayathri**, et al., ["NuRIA: Numerical Relativity Injection Analysis of spinning binary black hole signals in Advanced LIGO data"](https://doi.org/10.1103/PhysRevD.102.044035), Phys. Rev. D 102, 044035, 2020.
+22. **V. Gayathri**, et al., ["GW170817A as a Hierarchical Black Hole Merger"](https://doi.org/10.3847/2041-8213/ab77d3), The Astrophysical Journal Letters, 890 L20, 2020.
+23. Y. Yang, **V. Gayathri**, et al., ["Hierarchical Black Hole Mergers in Active Galactic Nuclei"](https://doi.org/10.1103/PhysRevLett.123.181101), Phys. Rev. Lett. 123, 181101, 2019.
+24. **V. Gayathri**, et al., ["Astrophysical signal consistency test adapted for gravitational-wave transient searches"](https://doi.org/10.1103/PhysRevD.100.124022), Phys. Rev. D 100, 124022, 2019.
+25. **V. Gayathri**, et al., ["Driving unmodeled gravitational-wave transient searches using astrophysical information"](https://doi.org/10.1103/PhysRevD.98.024028), Phys. Rev. D 98, 024028, 2018.
+26. Chassande-Mottin E., Eric Lebigot, Hugo Magaldi, Eve Chase, Archana Pai, **V. Gayathri**, et al., ["Wavelet graphs for the direct detection of gravitational waves"](https://hal.archives-ouvertes.fr/hal-01262605), 25e Colloque GRETSI, 2015.
+
+## **Major Contributed Collaboration Publications**
+
+1. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["Search for Eccentric Black Hole Coalescences during the Third Observing Run of LIGO and Virgo"](https://arxiv.org/abs/2308.03822), arXiv:2308.03822, 2023.
+2. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo During the Second Part of the Third Observing Run"](https://arxiv.org/abs/2111.03606), arXiv:2111.03606, 2021.
+3. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["Search for intermediate mass black hole binaries in the third observing run of Advanced LIGO and Advanced Virgo"](https://arxiv.org/abs/2105.15120), arXiv:2105.15120, 2021.
+4. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["Properties and Astrophysical Implications of the 150 M! Binary Black Hole Merger GW190521"](https://doi.org/10.3847/2041-8213/abd3d1), The Astrophysical Journal Letters, 900, 2020.
+5. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["GW190521: A Binary Black Hole Merger with a Total Mass of 150 M!"](https://doi.org/10.1103/PhysRevLett.125.101102), Phys. Rev. Lett. 125, 2020.
+6. The LIGO Scientific Collaboration, the Virgo Collaboration, the KAGRA Collaboration: R. Abbott, **V. Gayathri**, et al., ["Search for intermediate mass black hole binaries in the first and second observing runs of the Advanced LIGO and Virgo network"](https://doi.org/10.1103/PhysRevD.100.064064), Phys. Rev. D 100, 064064, 2020.
