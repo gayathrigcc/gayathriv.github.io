@@ -11,11 +11,13 @@ Gayathri V, Ph.D.
 
 Postdoctoral Associate, University of Wisconsin Milwaukee
 
+
 I am a Postdoctoral Associate at the University of Wisconsin Milwaukee, working with Prof. Jolien Creighton and Prof. Patrick Brady. My research centers on Gravitational Wave Astrophysics, with a focus on the detection, interpretation, and computational analysis of gravitational wave events. I have been actively involved in developing machine learning-enhanced algorithms for gravitational wave observatories.
 
 I earned my PhD from the Indian Institute of Technology Bombay under the supervision of Prof. Archana Pai and previously held a postdoctoral position at the University of Florida, collaborating with Prof. Imre Bartos. My work explores key challenges in the search for gravitational wave transients, contributing to the LIGO-Virgo Collaboration and advancing our understanding of binary black hole mergers.
 
-![Editing a markdown file for a talk](/images/41586_2019_1129_Fig1_HTML.webp)
+
+
 Research Interests:
 ======
 **1. Gravitational wave detection algorithms:**
