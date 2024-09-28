@@ -1,7 +1,10 @@
 ---
-permalink: /terms/
+layout: archive
 title: "Talks"
-modified: 2016-06-06
+permalink: /terms/
+author_profile: true
+redirect_from:
+  - /resume
 ---
 
 ## **Invited Talks**
