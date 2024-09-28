@@ -10,7 +10,7 @@ redirect_from:
 ## **Invited Talks**
 
 - **Gravitational wave source populations: Disentangling an AGN component**  
-  Oral presentation at the Miami 2022, 14-20 December 2022.
+  Oral presentation at Miami 2022 Physics Conference, 14-20 December 2022.
   
 - **XXXIst General Assembly International Astronomical Union**  
   Oral presentation, Aug 2 - 11, 2022, South Korea.
