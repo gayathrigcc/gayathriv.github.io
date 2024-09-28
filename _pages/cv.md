@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Research on Active Galactic Nuclei (AGN)
 ======
 My research explores the intricate role of Active Galactic Nuclei (AGN) in the formation and evolution of binary black hole systems, focusing on how AGN accretion discs serve as a dynamic environment for the creation of binary black hole mergers. In particular, I have investigated how the dense gas within AGN discs can catalyze black hole mergers, contributing significantly to the gravitational wave signals detected by observatories like LIGO and Virgo. My work spans a series of studies that delve into different aspects of this phenomenon, including the dynamics of binary formation and the gravitational wave event rate.
 
