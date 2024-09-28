@@ -15,6 +15,7 @@ I am a Postdoctoral Associate at the University of Wisconsin Milwaukee, working 
 
 I earned my PhD from the Indian Institute of Technology Bombay under the supervision of Prof. Archana Pai and previously held a postdoctoral position at the University of Florida, collaborating with Prof. Imre Bartos. My work explores key challenges in the search for gravitational wave transients, contributing to the LIGO-Virgo Collaboration and advancing our understanding of binary black hole mergers.
 
+![Editing a markdown file for a talk](/images/41586_2019_1129_Fig1_HTML.webp)
 Research Interests:
 ======
 **1. Gravitational wave detection algorithms:**
