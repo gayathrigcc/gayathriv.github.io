@@ -20,19 +20,19 @@ I earned my PhD from the Indian Institute of Technology Bombay under the supervi
 
 Research Interests:
 ======
-**1. Gravitational wave detection algorithms:**
+**1. Gravitational Wave Detection Algorithms:**
 
    Developing algorithms for detecting gravitational wave transients using interferometric detectors like LIGO and Virgo.
 
-**2. Intermediate-mass black hole binaries and eccentric binary searches:**
+**2. Intermediate-Mass Black Hole Binaries and Eccentric Binary Searches:**
 
    Investigating gravitational wave signals from these exotic systems in Advanced LIGO and Virgo data.
 
-**3. Machine learning for gravitational wave science:**
+**3. Machine Learning for Gravitational Wave Science:**
 
    Applying machine learning to enhance detection algorithms and improve the interpretation of gravitational wave events.
 
-**4. Noise veto techniques:**
+**4. Noise Veto Techniques:**
 
    Crafting strategies to differentiate genuine gravitational wave signals from noise, improving detection reliability.
 
