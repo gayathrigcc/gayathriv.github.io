@@ -9,7 +9,10 @@ redirect_from:
 
 ## **Peer-Reviewed Publications**
 
-1. **V. Gayathri**, I. Bartos, S. Rosswog, M. C. Miller, D. Veske, W. Lu, S. Marka, ["Do gravitational wave observations in the lower mass gap favor a hierarchical triple origin?"](https://arxiv.org/abs/2307.09097), arXiv:2307.09097, 2023.
+1. Shubhagata Bhaumik, **V. Gayathri**, Imre Bartos, Jeremiah Anglin, Gregorio Carullo, James Healy, Sergey Klimenko, Jacob Lange, Carlos Lousto, Tanmaya Mishra, Marek J. Szczepańczyk, [""](https://arxiv.org/abs/2410.15192), arXiv:2410.15192, 2024.
+2. Tanmaya Mishra, Shubhagata Bhaumik, **V. Gayathri**, Marek J. Szczepańczyk, Imre Bartos, Sergey Klimenko, ["Gravitational Waves Detected by a Burst Search in LIGO/Virgo's Third Observing Run"](https://arxiv.org/abs/2410.15191), arXiv:2410.15191, 2024.
+3. Leigh Smith, Sayantan Ghosh, Jiyoon Sun,**V. Gayathri**, Ik Siong Heng, Archana Pai,["The enhancement of Gaussian mixture modelling as an application to the coherent WaveBurst algorithm in the search for short gravitational wave transients"](https://arxiv.org/abs/2407.16414),arXiv:2407.16414, 2024. 
+4. **V. Gayathri**, I. Bartos, S. Rosswog, M. C. Miller, D. Veske, W. Lu, S. Marka, ["Do gravitational wave observations in the lower mass gap favor a hierarchical triple origin?"](https://arxiv.org/abs/2307.09097), arXiv:2307.09097, 2023.
 2. Marek J. Szczepańczyk, Yanyan Zheng, ..., **V. Gayathri**, et al., ["An Optically Targeted Search for Gravitational Waves emitted by Core-Collapse Supernovae during the Third Observing Run of Advanced LIGO and Advanced Virgo"](https://arxiv.org/abs/2305.16146), arXiv:2305.16146, 2023.
 3. I. Bartos, S. Rosswog, **V. Gayathri**, M. C. Miller, D. Veske, S. Marka, ["Hierarchical Triples as Early Sources of r-process Elements"](https://arxiv.org/abs/2302.10350), arXiv:2302.10350, 2023.
 4. **V. Gayathri**, Daniel Wysocki, Y. Yang, I. Bartos, and R. O’Shaughnessy, ["Gravitational wave source populations: Disentangling an AGN component"](https://doi.org/10.3847/2041-8213/acc1e9), ApJL 945 L29, 2023.
