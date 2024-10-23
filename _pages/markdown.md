@@ -9,7 +9,7 @@ redirect_from:
 
 ## **Peer-Reviewed Publications**
 
-1. Shubhagata Bhaumik, **V. Gayathri**, Imre Bartos, Jeremiah Anglin, Gregorio Carullo, James Healy, Sergey Klimenko, Jacob Lange, Carlos Lousto, Tanmaya Mishra, Marek J. Szczepańczyk, [""](https://arxiv.org/abs/2410.15192), arXiv:2410.15192, 2024.
+1. Shubhagata Bhaumik, **V. Gayathri**, Imre Bartos, Jeremiah Anglin, Gregorio Carullo, James Healy, Sergey Klimenko, Jacob Lange, Carlos Lousto, Tanmaya Mishra, Marek J. Szczepańczyk, ["Gravitational Wave Detector Sensitivity to Eccentric Black Hole Mergers"](https://arxiv.org/abs/2410.15192), arXiv:2410.15192, 2024.
 2. Tanmaya Mishra, Shubhagata Bhaumik, **V. Gayathri**, Marek J. Szczepańczyk, Imre Bartos, Sergey Klimenko, ["Gravitational Waves Detected by a Burst Search in LIGO/Virgo's Third Observing Run"](https://arxiv.org/abs/2410.15191), arXiv:2410.15191, 2024.
 3. Leigh Smith, Sayantan Ghosh, Jiyoon Sun,**V. Gayathri**, Ik Siong Heng, Archana Pai,["The enhancement of Gaussian mixture modelling as an application to the coherent WaveBurst algorithm in the search for short gravitational wave transients"](https://arxiv.org/abs/2407.16414),arXiv:2407.16414, 2024. 
 4. **V. Gayathri**, I. Bartos, S. Rosswog, M. C. Miller, D. Veske, W. Lu, S. Marka, ["Do gravitational wave observations in the lower mass gap favor a hierarchical triple origin?"](https://arxiv.org/abs/2307.09097), arXiv:2307.09097, 2023.
